@@ -105,7 +105,7 @@ ul{
 img {
     max-width: 100%;
 }
-textarea,
+/* textarea,
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -133,7 +133,7 @@ input[type="color"],
 }
 .form-control:focus {
     border-color: #000000;
-}
+} */
 
 h1,
 h2,
@@ -596,7 +596,7 @@ h1 span {
     background: url(../images/homebg1.jpg) no-repeat top center;
     /* overflow: hidden; */
     background-size: cover;
-    padding: 105px 0px;
+    padding: 25px 0px 105px;
     color: #fff;
 }
 .main_home{
@@ -618,10 +618,10 @@ h1 span {
 	margin-bottom:10px;
 }
 
-/* sewsstory section */
-.sewsstory{
+/* newsstory section */
+.newsstory{
 	background:#ddd;
-	padding:40px 0px;
+	padding:60px 0px;
 }
 
 .main_newsstory{
@@ -823,6 +823,10 @@ padding:30px 0px;
 
 
 /* GABRIEL */
+.open_sanslight {
+	font-family: 'open_sanslight';
+}
+
 .breadcrumb-container {
     background: #0a0a0a;
     overflow: hidden;
@@ -847,7 +851,7 @@ padding:30px 0px;
 .single_home h3 {
   color: #bec1c2;
 }
-.single_home a.call-action {
+.single_home a.call-action-1 {
   background: transparent;
   border:2px solid #FFF;
   font-weight: bold;
@@ -855,10 +859,16 @@ padding:30px 0px;
   margin-top:20px;
   color: #FFF;
 }
-.single_home a.call-action:hover,
-.single_home a.call-action:focus {
+.single_home a.call-action-1:hover,
+.single_home a.call-action-1:focus {
   background: rgba(255,255,255,0.4);
   color: #FFF;
+}
+
+.single_home a.btn-danger {
+  border-width:2px;
+  font-weight: bold;
+  margin-top:20px;
 }
 
 .pt-50 {
@@ -869,5 +879,23 @@ padding:30px 0px;
   font-family: 'open_sanslight';
 }
 
+#faq .nav > li > a {
+  color:#333;
+}
+#faq .nav > li > a.active {
+  border-bottom:2px solid #f25050;
+}
+
+.nav-checkout {
+  color: #ccc;
+}
+
+.nav-checkout .active {
+  color:#f25050;
+}
+
 .mr-20 {margin-right:20px;}
 .mb-20 {margin-bottom:20px;}
+.mt-20 {margin-top:20px;}
+.mt-50 {margin-top:50px;}
+.mt-100 {margin-top:100px;}
