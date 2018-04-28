@@ -18,14 +18,14 @@
 	7. Flickr Feed
  *
  * -------------------------------------------------------------------------- */
- 
+
 (function($) {
 
     "use strict";
 
     var themeApp = {
 
-            //----------- 1. To top Jquery ----------- 
+            //----------- 1. To top Jquery -----------
             theme_scrollUP: function() {
                 $(document).scroll(function() {
                     var toTop = $('.to-top');
@@ -38,7 +38,7 @@
                 });
             },
 
-            //----------- 2. Progress Bar Jquery ----------- 
+            //----------- 2. Progress Bar Jquery -----------
             theme_progressbar: function() {
                 function progress(percent, element) {
                     "use strict";
@@ -55,7 +55,7 @@
                 });
             },
 
-            //----------- 3. Circular Bar Jquery ----------- 
+            //----------- 3. Circular Bar Jquery -----------
             theme_circularbar: function() {
 
                 var cb = $('.idz-circular');
@@ -117,7 +117,7 @@
                     qstrings: { id: '52617155@N08' },
                     itemTemplate: '<div>' + '<a href="{{image}}" data-uk-lightbox="{{group:samplepic}}" title="{{title}}">' + '<img src="{{image_s}}" alt="{{title}}" />' + '</a>' + '</div>'
                 });
-            }, 
+            },
 
             // theme init
             theme_init: function() {
@@ -140,3 +140,8 @@
     });
 
 })(jQuery);
+
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq ||
+{widgetcode:"bd533da916b158d75459a251f198d9a332acaf5d4d27521d07e88000856ab8e3", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
